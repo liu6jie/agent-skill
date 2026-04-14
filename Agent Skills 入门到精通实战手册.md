@@ -123,14 +123,16 @@ alwaysApply: false
 
 社区标准工具 skills 允许你直接从 GitHub 抓取：
 
+打开你的 终端（CMD / PowerShell）
 \# 全局安装通用技能包管理器  
 npm install \-g skills-cli
 
-\# 从 GitHub 仓库下载一个“文案大师”技能到你的项目  
-npx skills add creative-agency/agent-skills \--skill copywriting-master
+\# 从 GitHub 仓库下载一个skill到你的项目  
+npx skills add 作者名/仓库名 --skill 技能文件夹名
 
-\# 下载别人打包好的“餐饮全案广告包”  
+\# 例如：下载别人打包好的“餐饮全案广告包”  
 npx skills add Awesome-Agent/food-ad-skills
+
 
 ### **方案 B：在 Claude Code 内置市场安装**
 
