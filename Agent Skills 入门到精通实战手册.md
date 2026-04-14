@@ -153,3 +153,6 @@ npx skills add Awesome-Agent/food-ad-skills
 3. **利用脚本（Bash/Python）桥接一切物理工具**  
    不要指望 AI 会自动帮你打开电脑上的 Photoshop 去拖拽图层。  
    正确的做法是：写一个能处理图像的 Python 脚本放在 scripts/ 目录下。告诉 AI：“你需要改尺寸时，就去执行这个脚本”。这样，AI 就变相拥有了操作物理软件的能力！
+
+官方文档：https://cursor.com/cn/docs/skills
+开源技能库：https://github.com/numman-ali/openskills
