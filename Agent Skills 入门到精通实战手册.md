@@ -124,6 +124,7 @@ alwaysApply: false
 社区标准工具 skills 允许你直接从 GitHub 抓取：
 
 打开你的 终端（CMD / PowerShell）
+
 \# 全局安装通用技能包管理器  
 npm install \-g skills-cli
 
